@@ -16,6 +16,7 @@ import mx.org.inai.dto.RequestSecuencia;
 import mx.org.inai.dto.ResponseArchivo;
 import mx.org.inai.service.IDescargaService;
 
+
 @CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST})
 @RestController
 @RequestMapping("/fichero") 
