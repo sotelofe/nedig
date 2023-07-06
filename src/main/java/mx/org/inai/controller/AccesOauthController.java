@@ -20,8 +20,6 @@ import mx.org.inai.service.IoauthService;
 @RequestMapping("/login") 
 public class AccesOauthController {
 
-	
-	
 	@Autowired
 	IoauthService service;
 	
